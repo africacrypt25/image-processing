@@ -46,7 +46,7 @@ def generate_jpeg_from_csv(input_csv, output_jpeg):
     #ssim_filtered = ssim(np.asarray(conv(img_before,F)), np.asarray(img_after),data_range=256)
 
 def main():
-    #img_orig = Image.open(r"lena_image.png").convert('L')
+    #img_orig = Image.open(r"boat_image.png").convert('L')
     #image_before = np.asarray(img_orig)
     image_after = generate_jpeg_from_csv('build/output_image.csv', 'output_plot2.jpg')
     #ssim_filtered = ssim(image_before, image_after,data_range=256)
