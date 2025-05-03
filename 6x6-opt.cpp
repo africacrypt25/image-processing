@@ -1722,10 +1722,9 @@ int main() {
       "Sun.bmp.csv", "cardinal2048.bmp.csv", "mandril.bmp.csv",
       "pirate.bmp.csv",       "boat.bmp.csv",         "lake.bmp.csv",
       "mandril256.bmp.csv",   "pirate1024.bmp.csv",   "cameraman.bmp.csv",
-      "lena.bmp.csv",         "monument.bmp.csv",     "pirate256.bmp.csv",
-      "cameraman256.bmp.csv", "lena256.bmp.csv",      "office.bmp.csv",
-      "sunset1024.bmp.csv",   "cardinal1024.bmp.csv", "livingroom.bmp.csv",
-      "peppers_gray.bmp.csv", "sunset2048.bmp.csv"};
+      "monument.bmp.csv",     "pirate256.bmp.csv",    "cameraman256.bmp.csv",
+      "office.bmp.csv",       "sunset1024.bmp.csv",   "cardinal1024.bmp.csv",
+      "livingroom.bmp.csv",   "peppers_gray.bmp.csv", "sunset2048.bmp.csv"};
 
   for (std::string img_path : images) {
 
