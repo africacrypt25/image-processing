@@ -328,8 +328,8 @@ def conv_parallel(blocks, filter):
 #######################################################
 ## IMAGE: Gradient
 # img_matrix = [[155-2*i-5*j for i in range(18)] for j in range(18)]
-# lena
-# img_orig = Image.open(r"lena_image.png").convert('L')
+# boat
+# img_orig = Image.open(r"boat_image.png").convert('L')
 # img_matrix_512 = np.asarray(img_orig)
 # img_matrix = []
 # for i in range(510):
@@ -350,8 +350,8 @@ def conv_parallel(blocks, filter):
 
 # print(zigzag(new_blocks))
 
-images = ["Sun.bmp","lena.bmp",          "peppers_gray.bmp",
-"boat.bmp",            "lena256.bmp",       "pirate.bmp",
+images = ["Sun.bmp",   "peppers_gray.bmp",
+"boat.bmp",            "pirate.bmp",
 "cameraman.bmp",       "livingroom.bmp",    "pirate1024.bmp",
 "cameraman256.bmp",    "mandril.bmp",       "pirate256.bmp",
 "cardinal1024.bmp",    "mandril256.bmp",    "sunset1024.bmp",
